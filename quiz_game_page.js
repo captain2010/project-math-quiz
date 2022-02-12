@@ -33,6 +33,11 @@ function check()
     console.log(" answer in lower case :"+ answer);
 
     check_button = "<br><br><button class='btn btn-info' onclick='check()'>check</button>";
+
+     question_button = "<h4>" + number1 + "X"+ number2 +"</h4>";
+     input_box = "<br>Answer : <input type='text' id='input_check_box'>";
+     check_button = "<br><br><button class='btn btn-info' onclick='check()'>Check</button>" ;
+     row = question_number + input_box + check_button ;
      
     if (answer==word)
     {
